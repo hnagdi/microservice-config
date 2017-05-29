@@ -34,5 +34,3 @@ zuul:
 spring:
   aop:
     proxy-target-class: true
-    
-      
