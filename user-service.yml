@@ -18,6 +18,7 @@ spring:
   jpa:
     database-platform: org.hibernate.dialect.MySQLDialect
     show-sql: false
+
 # Note that we will use the JWT token to get user data
 security:
   oauth2:
