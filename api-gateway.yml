@@ -50,6 +50,15 @@ zuul:
       stripPrefix: false
       serviceId: web-portal
 
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          strategy: SEMAPHORE
+          semaphore:
+            timeoutInMilliseconds: 5000
+
 eureka:
   client:
     serviceUrl:
